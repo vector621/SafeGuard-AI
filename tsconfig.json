@@ -4,15 +4,12 @@
     "useDefineForClassFields": true,
     "lib": ["ESNext", "DOM"],
     "module": "ESNext",
+    "skipLibCheck": true,
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "react-jsx",
-    "strict": true,
-    "types": ["vite/client"]
+    "noEmit": true,
+    "jsx": "react-jsx"
   },
   "include": ["src"]
 }
